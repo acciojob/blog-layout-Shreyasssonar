@@ -1,1 +1,35 @@
 /*  your css code here. If applicable */
+.blog-container {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.columns-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
+  flex: 1;
+  min-height: 200px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.column h3 {
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
